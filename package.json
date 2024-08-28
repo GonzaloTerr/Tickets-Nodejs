@@ -1,0 +1,22 @@
+{
+  "name": "tiketing-system",
+  "version": "1.0.0",
+  "description": "Sistema de tikets",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=prod node server.js",
+    "dev": "cross-env NODE_ENV=dev node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gonzalo Terrones",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0"
+  }
+}
