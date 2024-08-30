@@ -1,0 +1,70 @@
+{
+  metadata: TypeError: Cannot read properties of undefined (reading 'replace')
+      at auth (file:///D:/NodeJS/Tikets/middlewares/auth.js:4:44)
+      at Layer.handle [as handle_request] (D:\NodeJS\Tikets\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\NodeJS\Tikets\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (D:\NodeJS\Tikets\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (D:\NodeJS\Tikets\node_modules\express\lib\router\layer.js:95:5)
+      at D:\NodeJS\Tikets\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (D:\NodeJS\Tikets\node_modules\express\lib\router\index.js:346:12)
+      at next (D:\NodeJS\Tikets\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (D:\NodeJS\Tikets\node_modules\express\lib\router\index.js:175:3)
+      at router (D:\NodeJS\Tikets\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: "Cannot read properties of undefined (reading 'replace')",
+  timestamp: '2024-08-30T13:40:43.312Z'
+}
+{
+  metadata: SyntaxError: Expected double-quoted property name in JSON at position 143
+      at JSON.parse (<anonymous>)
+      at parse (D:\NodeJS\Tikets\node_modules\body-parser\lib\types\json.js:92:19)
+      at D:\NodeJS\Tikets\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+      at invokeCallback (D:\NodeJS\Tikets\node_modules\raw-body\index.js:238:16)
+      at done (D:\NodeJS\Tikets\node_modules\raw-body\index.js:227:7)
+      at IncomingMessage.onEnd (D:\NodeJS\Tikets\node_modules\raw-body\index.js:287:7)
+      at IncomingMessage.emit (node:events:519:28)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\r\n' +
+      '  "user":"66cfad63a0a2460567467b65",\r\n' +
+      '  "title": "Ticket #16",\r\n' +
+      '  "description": "This is a new ticket description",\r\n' +
+      '  "priority":"high",\r\n' +
+      '}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Expected double-quoted property name in JSON at position 143',
+  timestamp: '2024-08-30T16:14:54.372Z'
+}
+{
+  metadata: SyntaxError: Expected double-quoted property name in JSON at position 143
+      at JSON.parse (<anonymous>)
+      at parse (D:\NodeJS\Tikets\node_modules\body-parser\lib\types\json.js:92:19)
+      at D:\NodeJS\Tikets\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+      at invokeCallback (D:\NodeJS\Tikets\node_modules\raw-body\index.js:238:16)
+      at done (D:\NodeJS\Tikets\node_modules\raw-body\index.js:227:7)
+      at IncomingMessage.onEnd (D:\NodeJS\Tikets\node_modules\raw-body\index.js:287:7)
+      at IncomingMessage.emit (node:events:519:28)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\r\n' +
+      '  "user":"66cfad63a0a2460567467b65",\r\n' +
+      '  "title": "Ticket #16",\r\n' +
+      '  "description": "This is a new ticket description",\r\n' +
+      '  "priority":"high",\r\n' +
+      '}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Expected double-quoted property name in JSON at position 143',
+  timestamp: '2024-08-30T16:15:05.923Z'
+}
